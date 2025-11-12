@@ -1,3 +1,6 @@
+# https://github.com/aSquidE/lab11-WL-AP
+# Partner 1: William Lin
+# Partner 2: Abid Panahie
 import unittest
 from calculator import *
 
