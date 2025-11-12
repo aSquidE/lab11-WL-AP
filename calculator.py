@@ -6,18 +6,22 @@ One function per operation, in order.
 """
 # First example
 import math
-def add(a, b): 
+def add(a, b):
     return a + b
+
 def sub(a, b):
     return a - b
+
 def mul(a, b):
     return a * b
-def div(a, b):
-    return b / a
+
 def log(a, b):
-    return math.log(b,a)
+    if a <= 0 or a == 1 or b <= 0:
+        raise ValueError
+    return math.log(a, b)
 def exp(a, b):
-    a ** b
+    return a ** b
+
 
 
 
