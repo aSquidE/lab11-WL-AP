@@ -1,3 +1,7 @@
+# https://github.com/aSquidE/lab11-WL-AP
+# Partner 1: William Lin
+# Partner 2: Abid Panahie
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
