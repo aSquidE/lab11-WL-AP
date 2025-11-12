@@ -4,6 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
+# First example
 import math
 
 def square_root(a):
@@ -22,12 +23,10 @@ def sub(a, b):
 
 def mul(a, b):
     return a * b
-
 def div(a, b):
     if a == 0:
-        raise ValueError
+        raise ZeroDivisionError
     return b / a
-
 def log(a, b):
     if b <= 0 or b == 1 or a <= 0:
         raise ValueError
